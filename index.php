@@ -1,3 +1,38 @@
+<?php
+    
+    $TWRIGHT_EMAIL = "";
+
+
+    if (!empty($_POST) {
+        
+        if (isset($_POST["fax"]) {
+            die();
+        }
+        
+        $name = $_POST["name"];
+        $email =  $_POST["email"];
+        $instagram = $_POST["instagram"];
+        $phone = $_POST["phone"];
+        $state =  $_POST["state"];
+        $city =  $_POST["city"];
+        $zip = $_POST["zip"]; 
+        $refer = $_POST["refer"];
+        
+
+        $msg = "Full name: " . $name . "\r\n" .
+                    "Email: " . $email . "\r\n" .
+                    "Instagram: " . $instagram . "\r\n" .
+                    "Phone Number: " . $phone . "\r\n" .
+                    "State" . $state . "\r\n" .
+                    "City" . $city . "\r\n" .
+                    "Zip: " . $zip . "\r\n" .
+                    "Referer: " . $refer;
+        
+        mail($TWRIGHT_EMAIL, "New applicant: " . $name, $msg, "From: " . $email . "\r\n");
+    }
+
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -133,6 +168,10 @@
         
         <span class="space"></span>
         
+        <?php
+            if (empty($_POST) {
+        ?>
+        
         <form method="post" action="" class="interview"><div class="left-50">
                 <label class="noselect" for="email">Email Address</label><br>
                 <input type="text" name="email" placeholder="email@example.com" 
@@ -172,10 +211,22 @@
                     <option value="an on-campus advertisement">On-campus Advertisement</option>
                     <option value="an off-campus advertisement">Off-campus Advertisement</option>
                 </select><br>
+                
+                <input type="text" class="fax" name="fax" placeholder="DO NOT FILL THIS IN">
             </div>
             
             <input type="submit" class="submit" value="Apply now">
         </form>
+        
+        <?php
+            } else {
+        ?>
+        
+        <p class="thanks">Your form has been submitted! We'll get back to you shortly.</p>
+        
+        <?php
+            }
+        ?>
         
         <p class="footer">Website by Supa TK Web Design</p>
         
