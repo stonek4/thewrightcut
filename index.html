@@ -28,7 +28,7 @@
         }
 
         html {
-            background: url("./TWCBS.png");
+            background: url("./img/TWCBS.png");
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -105,6 +105,12 @@
             text-align: justify;
         }
 
+        .flyer{
+          max-height:100vh;
+          margin:auto;
+          display:block;
+        }
+
         form {
             font-size: 2em;
         }
@@ -154,7 +160,7 @@
 
         .space {
             width: 100%;
-            height: 10vh;
+            height: 20vh;
             display: block;
         }
 
@@ -166,21 +172,21 @@
 </head>
 
 <body>
-    <p class="h1">The Wright Cut | [Employment] [Upcoming Events] [Contact]</p>
+    <p class="h1">The Wright Cut | <a href="#employment">[Employment]</a> <a href="#upcoming">[Upcoming Events]</a> <a href="#contact">[Contact]</a></p>
 
-    <div class="container">
+    <div id="contact" class="container">
 
         <p class="h2">Welcome</p>
         <p class="h3">To The Wright Cut</p>
 
-        <p class="h4">info@twcbarbershop.com</p>
+        <p class="h4" id="contactString">info@twcbarbershop.com</p>
 
         <center>
           <a href="https://www.facebook.com/twcbarbershop/"><object type="image/svg+xml" data="img/facebook.svg" class="icon"></object></a>
           <a href="https://www.instagram.com/TWCBS/"><object type="image/svg+xml" data="img/instagram.svg" class="icon"></object></a>
           <a href="https://www.twitter.com/thewrightcutbs/"><object type="image/svg+xml" data="img/twitter.svg" class="icon"></object></a>
           <a href="https://www.snapchat.com/add/TWCBS/"><object type="image/svg+xml" data="img/snapchat.svg" class="icon"></object></a>
-          <a href="#"><object type="image/svg+xml" data="img/periscope.svg" class="icon"></object></a>
+          <a id="ps"><object type="image/svg+xml" data="img/periscope.svg" class="icon"></object></a>
           <a href="https://www.pinterest.com/TWCBarberShop/"><object type="image/svg+xml" data="img/pinterest.svg" class="icon"></object></a>
           <a href="https://twcbarbershop.tumblr.com/"><object type="image/svg+xml" data="img/tumblr.svg" class="icon"></object></a>
         </center>
@@ -191,16 +197,21 @@
         </a>
 
         <span class="space"></span>
+        <span id="upcoming" class="space"></span>
+
+        <img class="flyer" src="./img/TWCF.jpg"/>
+
         <span class="space"></span>
-
+        <span id="employment" class="space"></span>
+        <p class="h3">Join Our Team</p>
         <p class="p1">A career with The Wright Cut features a one-of-a-kind environment great pay & incentive, and guaranteed clientele.</p>
-
         <p class="p1">We're interviewing motivated, positive, reliable, upbeat, Master Barbers / Managers and licensed Barber / Stylists to help grow and be one of our valued team members. You should be outgoing and career-oriented, as well as have a current license and passion for doing men's and boys' haricuts</p>
-
         <p class="p1">This interview should take a few minutes to complete. Enter or select a response for each question below</p>
 
         <span class="space"></span>
+
         <center>
+
         <form method="post" action="" class="interview"><div class="left-50">
 
                 <label class="noselect" for="email">Email Address</label><br>
@@ -250,5 +261,14 @@
 
     </div>
 </body>
-
 </html>
+
+<script>
+  var par = document.getElementById("ps");
+  par.onmouseover=function(){
+    document.getElementById("contactString").innerHTML = "@TWCBS";
+  };
+  par.onmouseout=function(){
+    document.getElementById("contactString").innerHTML = "info@twcbarbershop.com";
+  };
+</script>
