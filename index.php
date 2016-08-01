@@ -1,6 +1,6 @@
 <?php
 
-    $TWRIGHT_EMAIL = "";
+    $TWRIGHT_EMAIL = "kstonezup@gmail.com";
 
 
     if (!empty($_POST)) {
@@ -77,7 +77,7 @@
         <span id="employment" class="space"></span>
         <p class="h3">Join Our Team</p>
         <p class="p1">A career with The Wright Cut features a one-of-a-kind environment great pay & incentive, and guaranteed clientele.</p>
-        <p class="p1">We're interviewing motivated, positive, reliable, upbeat, Master Barbers / Managers and licensed Barber / Stylists to help grow and be one of our valued team members. You should be outgoing and career-oriented, as well as have a current license and passion for doing men's and boys' haricuts</p>
+        <p class="p1">We're interviewing motivated, positive, reliable, upbeat, Master Barbers / Managers and licensed Barber / Stylists to help grow and be one of our valued team members. You should be outgoing and career-oriented, as well as have a current license and passion for doing men's and boys' haircuts</p>
         <p class="p1">This interview should take a few minutes to complete. Enter or select a response for each question below</p>
 
         <span class="space"></span>
@@ -117,7 +117,7 @@
                                onfocus="(this.placeholder='')" onblur="(this.placeholder='Springfield')"/><br>
 
                    <label class="noselect" for="zip">Zip Code</label><br>
-                   <input type="text" name="phone" placeholder="12340"
+                   <input type="text" name="zip" placeholder="12340"
                                onfocus="(this.placeholder='')" onblur="(this.placeholder='12340')"/><br>
 
                    <label class="noselect" for="refer">How did you hear about us?</label><br>
