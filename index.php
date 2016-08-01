@@ -1,11 +1,11 @@
 <?php
 
-    $TWRIGHT_EMAIL = "kstonezup@gmail.com";
+    $TWRIGHT_EMAIL = "";
 
 
-    if (!empty($_POST) {
+    if (!empty($_POST)) {
 
-        if (isset($_POST["fax"]) {
+        if (isset($_POST["fax"])) {
             die();
         }
 
@@ -83,54 +83,54 @@
         <span class="space"></span>
 
         <?php
-            if (empty($_POST) {
+            if (empty($_POST)) {
         ?>
 
-        <form method="post" action="" class="interview"><div class="left-50">
-                <label class="noselect" for="email">Email Address</label><br>
-                <input type="text" name="email" placeholder="email@example.com"
-                            onfocus="(this.placeholder='')" onblur="(this.placeholder='email@example.com')"/><br>
+        <center>
+          <form method="post" action="" class="interview"><div class="left-50">
 
-                <label class="noselect" for="name">Full Name</label><br>
-                <input type="text" name="name" placeholder="Tim Wright"
-                            onfocus="(this.placeholder='')" onblur="(this.placeholder='Tim Wright')"/><br>
+                   <label class="noselect" for="email">Email Address</label><br>
+                   <input type="text" name="email" placeholder="email@example.com"
+                               onfocus="(this.placeholder='')" onblur="(this.placeholder='email@example.com')"/><br>
 
-                <label class="noselect" for="phone">Phone Number</label><br>
-                <input type="text" name="phone" placeholder="(000) 111 - 2222"
-                            onfocus="(this.placeholder='')" onblur="(this.placeholder='(000) 111 - 2222')"/><br>
+                   <label class="noselect" for="name">Full Name</label><br>
+                   <input type="text" name="name" placeholder="Tim Wright"
+                               onfocus="(this.placeholder='')" onblur="(this.placeholder='Tim Wright')"/><br>
 
-                <label  class="noselect" for="instagram">Instagram Handle</label><br>
-                <input type="text" name="instagram" placeholder="@TheWrightCut"
-                            onfocus="(this.placeholder='')" onblur="(this.placeholder='@TheWrightCut')"/><br>
-            </div><div class="right-50">
-                <label class="noselect" for="state">State</label><br>
-                <select name="state">
-                    <option selected value="New Jersey">New Jersey</option>
-                    <option value="Pennsylvania">Pennsylvania</option>
-                    <option value="New York">New York</option>
-                </select><br>
+                   <label class="noselect" for="phone">Phone Number</label><br>
+                   <input type="text" name="phone" placeholder="(000) 111 - 2222"
+                               onfocus="(this.placeholder='')" onblur="(this.placeholder='(000) 111 - 2222')"/><br>
 
-                <label class="noselect" for="city">City</label><br>
-                <input type="text" name="city" placeholder="Springfield"
-                            onfocus="(this.placeholder='')" onblur="(this.placeholder='Springfield')"/><br>
+                   <label  class="noselect" for="instagram">Instagram Handle</label><br>
+                   <input type="text" name="instagram" placeholder="@TheWrightCut"
+                               onfocus="(this.placeholder='')" onblur="(this.placeholder='@TheWrightCut')"/><br>
+           </div><div class="right-50">
+                   <label class="noselect" for="state">State</label><br>
+                   <select name="state">
+                       <option selected value="New Jersey">New Jersey</option>
+                       <option value="Pennsylvania">Pennsylvania</option>
+                       <option value="New York">New York</option>
+                   </select><br>
 
-                <label class="noselect" for="zip">Zip Code</label><br>
-                <input type="text" name="phone" placeholder="12340"
-                            onfocus="(this.placeholder='')" onblur="(this.placeholder='12340')"/><br>
+                   <label class="noselect" for="city">City</label><br>
+                   <input type="text" name="city" placeholder="Springfield"
+                               onfocus="(this.placeholder='')" onblur="(this.placeholder='Springfield')"/><br>
 
-                <label class="noselect" for="refer">How did you hear about us?</label><br>
-                <select name="refer">
-                    <option selected value="a representative">The Wright Cut representitve</option>
-                    <option value="a walk-in">Walk-In</option>
-                    <option value="an on-campus advertisement">On-campus Advertisement</option>
-                    <option value="an off-campus advertisement">Off-campus Advertisement</option>
-                </select><br>
+                   <label class="noselect" for="zip">Zip Code</label><br>
+                   <input type="text" name="phone" placeholder="12340"
+                               onfocus="(this.placeholder='')" onblur="(this.placeholder='12340')"/><br>
 
-                <input type="text" class="fax" name="fax" placeholder="DO NOT FILL THIS IN">
-            </div>
-
-            <input type="submit" class="submit" value="Apply now">
-        </form>
+                   <label class="noselect" for="refer">How did you hear about us?</label><br>
+                   <select name="refer">
+                       <option selected value="a representative">The Wright Cut representitve</option>
+                       <option value="a walk-in">Walk-In</option>
+                       <option value="an on-campus advertisement">On-campus Advertisement</option>
+                       <option value="an off-campus advertisement">Off-campus Advertisement</option>
+                   </select><br>
+             </div>
+             <input type="submit" class="submit" value="Apply now">
+           </form>
+        </center>
 
         <?php
             } else {
