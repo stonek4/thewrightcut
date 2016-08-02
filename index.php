@@ -71,7 +71,13 @@
         <span class="space"></span>
         <span id="upcoming" class="space"></span>
 
+        <p class="h3">The Wright Cut Pro Day</p>
         <img class="flyer" src="./img/TWCF.jpg"/>
+        <p class="p1">The Wright Cut Presents: The Wright Cut Pro Day "Where the Best Barbers Get"... DRAFTED on Monday, August 29, 2016 - Powered by Super Bowl Winning & Current Detroit Lions Tight End Timothy Wright & The Wright Way Academy.</p>
+        <p class="p1">The Wright Cut Pro Day [TWCPD] is a spin on the NFL Combine within the barbering industry where elite barbers will showcase their skills and talents for an opportunity to be apart of the The Wright Cut team. Barbers will earn a chair within the barber shop allowing them to elevate their brand on a reputable university campus, Rutgers University, with guaranteed clientele.</p>
+        <p class="p1">Barbers & hairstylist will be judged by Lead Andis Educator Kenny Duncan. Barbers & hairstylists need to come equipped with their own; clippers, combs, comb attachments, shears, water bottles, hair sprays, etc.</p>
+        <p class="p1">TWCPD is free to enter for licensed barbers and hairstylists. Those interested in participating in the TWCPD draft, please RSVP to info@twcbarbershop.com. Please include social media handles, portfolio, and/or a link to your website.</p>
+
 
         <span class="space"></span>
         <span id="employment" class="space"></span>
