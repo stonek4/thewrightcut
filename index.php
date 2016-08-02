@@ -43,11 +43,10 @@
 </head>
 
 <body>
-  <p class="h1">The Wright Cut | <a href="#employment">[Employment]</a> <a href="#upcoming">[Upcoming Events]</a> <a href="#contact">[Contact]</a></p>
+  <p class="h1">The Wright Cut |<a href="#contact">Contact</a> <a href="#upcoming">Upcoming Events</a> <a href="#employment">Employment</a></p>
 
   <div id="contact" class="container">
-      <p class="h2">Welcome</p>
-      <p class="h3">To The Wright Cut</p>
+      <p class="h2">The Wright Cut</p>
       <p class="h4" id="contactString">info@twcbarbershop.com</p>
 
       <center>
